@@ -54,6 +54,10 @@ view: flights {
   dimension: carrier {
     type: string
     sql: ${TABLE}.carrier ;;
+    link: {
+      label: "Google"
+      url: "http://www.google.com"
+    }
   }
 
   dimension: dep_delay {
