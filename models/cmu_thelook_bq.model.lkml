@@ -120,6 +120,7 @@ explore: inventory_items {
   }
 }
 
+
 explore: orders {
   join: users {
     type: left_outer
