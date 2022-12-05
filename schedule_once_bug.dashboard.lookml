@@ -7,7 +7,7 @@
   elements:
   - title: debug_schedule
     name: debug_schedule
-    model: cmu_thelook_bq
+    # model: cmu_thelook_bq
     explore: dept
     type: table
     fields: [dept.dept_name, dept.count]
